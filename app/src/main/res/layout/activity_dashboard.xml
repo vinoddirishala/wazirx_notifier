@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dashboardRootLayout"
+    tools:context=".ui.activity.Dashboard">
+
+    <RelativeLayout
+        android:id="@+id/containerRL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tickers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:id="@+id/noTickersLayout"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/noTickersAvailableImg"
+                android:src="@drawable/logo"
+                android:layout_width="@dimen/onefourfive_dp"
+                android:layout_height="@dimen/onefourfive_dp"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3067f0</color>
+    <color name="colorSecondary">#3067f0</color>
+    <color name="colorDarkActionBar">#3067f0</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="tickerItemColorCode">#1B2A3A</color>
+    <color name="tickerItemColorCode2">#1F2E3E</color>
+</resources>
